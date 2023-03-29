@@ -2,7 +2,7 @@ import { Nav, Hero, Sponsors, Body, BenefitSection, Work, FeedbackSection, AdSec
 
 function App() {
   return (
-    <div>
+    <div className='static'>
       <Nav/>
       <Hero/>
       <Sponsors/>
