@@ -1,4 +1,4 @@
-import { Nav, Hero, Sponsors, Body, BenefitSection, Work, FeedbackSection, AdSection } from './components'
+import { Nav, Hero, Sponsors, Body, BenefitSection, Work, FeedbackSection, AdSection, Footer } from './components'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Work/>
       <FeedbackSection/>
       {/* <AdSection/> */}
+      <Footer/>
     </div>
   )
 }
