@@ -2,7 +2,7 @@ import { Nav, Hero, Sponsors, Body, BenefitSection, Work, FeedbackSection, AdSec
 
 function App() {
   return (
-    <div className='static'>
+    <div className='static mx-auto max-w-screen-2xl'>
       <Nav/>
       <Hero/>
       <Sponsors/>

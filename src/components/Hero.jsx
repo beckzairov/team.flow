@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center justify-center mt-[66px] mx-[48px]'>
+    <div className='flex flex-col items-center justify-center mt-[66px] mx-[48px] md:mx-auto md:max-w-4xl'>
         <button className='bg-specialGreen rounded-full text-primary font-light text-xs px-[17px] py-[4px]'>
             Get account of $59
         </button>
