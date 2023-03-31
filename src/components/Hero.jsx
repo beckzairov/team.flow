@@ -13,7 +13,7 @@ const Hero = () => {
             Simple platform that lets you master what great managers do best, as develop trust, collaborate, and drive team performance.
         </p>
         <input className='rounded-md border-specialBlue border py-[18px] placeholder:text-center text-center text-secondary w-full' type="email" placeholder='name@yourcompany.com'/>
-        <button className='bg-specialPurple hover:bg-white hover:border hover:border-secondary hover:text-secondary text-white rounded-md py-[18px] my-2 text-center w-full'>Try it free</button>
+        <button className='bg-specialPurple transition-all duration-300 hover:bg-white hover:border hover:border-secondary hover:text-secondary text-white rounded-md py-[18px] my-2 text-center w-full'>Try it free</button>
     </div>
   )
 }

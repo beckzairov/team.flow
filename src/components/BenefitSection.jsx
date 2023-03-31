@@ -4,7 +4,10 @@ const BenefitSection = () => {
   return (
     <div className="my-[56px] flex flex-col items-center">
         <h1 className="text-primary font-semibold text-center text-[18px]">Make your work easier</h1>
-        <div className="my-[40px]">
+        <div className="my-[40px] md:grid md:grid-cols-3 ">
+          <Benefits/>
+          <Benefits/>
+          <Benefits/>
           <Benefits/>
           <Benefits/>
           <Benefits/>
